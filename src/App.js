@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css';
+import Routes from './utils/routes/Routes'
 
 function App() {
   return (
     <div className="App">
-      <h1>Learn React</h1>
+      <Routes/>
     </div>
   );
 }
